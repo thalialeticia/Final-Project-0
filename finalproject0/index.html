@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icons8-love-64.png" type="image/png">
+</head>
+<body id="body">
+    <br>
+    <br>
+    <br>
+    <h1 id="title">WELCOME TO LOVE CALCULATOR</h1>
+    <p id="content">Check out your compatibility with your crush</P>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <form id="formtext">
+        <label for="name">Your Name</label>
+        <input id="Name" type="text" autocomplete="off" required>
+        <input id="CrushName" type="text" autocomplete="off" required>
+        <label for="name">Crush Name</label>
+        <br>
+        <br>
+        <input type="button" id="button" onclick="startscoring()" value="Check Score">
+        <br>
+        <br>
+        <div id="scorelist">        
+            <h2 id="score">SCORE</h2>
+            <ol id="listscore">
+
+            </ol>
+
+        </div>
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
